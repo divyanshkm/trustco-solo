@@ -1,0 +1,68 @@
+/*Reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+
+/* Global styles */
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffff;
+  color: #12141d;
+}
+
+/* Font sizes */
+
+/* Headings */
+h1 {
+  font-size: 2.5rem; /* 40px */
+}
+h2 {
+  font-size: 2rem; /* 32px */
+}
+h3 {
+  font-size: 1.75rem; /* 28px */
+}
+h4 {
+  font-size: 1.5rem; /* 24px */
+}
+h5 {
+  font-size: 1.25rem; /* 20px */
+}
+h6 {
+  font-size: 1rem; /* 16px */
+}
+
+/* Body text */
+p {
+  font-size: 1rem; /* 16px */
+}
+
+/* Other text elements */
+span {
+  font-size: 1rem; /* 16px */
+}
+label {
+  font-size: 0.875rem; /* 14px */
+}
+small {
+  font-size: 0.75rem; /* 12px */
+}
+strong {
+  font-size: 1rem; /* 16px */
+}
+em {
+  font-size: 1rem; /* 16px */
+}
+
+/* Button text */
+button {
+  font-size: 1rem; /* 16px */
+}
+
+/* Input field text */
+input {
+  font-size: 1rem; /* 16px */
+}
