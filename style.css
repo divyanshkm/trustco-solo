@@ -32,7 +32,7 @@ h5 {
   font-size: 1.25rem; /* 20px */
 }
 h6 {
-  font-size: 1rem; /* 16px */
+  font-size: 1.125rem; /* 18px */
 }
 
 /* Body text */
@@ -42,7 +42,7 @@ p {
 
 /* Other text elements */
 span {
-  font-size: 1rem; /* 16px */
+  font-size: inherit;
 }
 label {
   font-size: 0.875rem; /* 14px */
@@ -67,29 +67,61 @@ input {
   font-size: 1rem; /* 16px */
 }
 
-.header {
-  padding: 24px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: auto;
-  width: 100%;
+#hero {
+  padding: 100px 120px;
+
+  gap: 10px;
+  border: #12141d;
+  width: auto;
 }
 
-ul {
+.hero-content {
   display: flex;
   flex-direction: row;
-  gap: 40px;
-  list-style-type: none;
 }
 
-li a {
-  display: block;
-  font-size: 1rem;
-  text-align: center;
-  padding: 14px;
+#Frame-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
   color: #12141d;
-  text-decoration: none;
+
+  span {
+    color: #043a53;
+  }
+}
+
+#bottom-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+#get-started-button {
+  padding: 16px 24px;
+  border-radius: 55px;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #043a53;
+  color: #ffffff;
+  filter: drop-shadow(0 23px 47px #043a533d);
+}
+
+#check-video-button {
+  display: flex;
+  height: auto;
+  width: auto;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 23px 47px #043a533d);
+  border: none;
+  background: none;
 }
 
 button {
@@ -100,19 +132,4 @@ button {
   border-radius: 42px;
   font-size: 1rem;
   cursor: pointer;
-}
-
-.buttons {
-  gap: 10px;
-  display: flex;
-}
-
-#login-button {
-  background-color: #ffffff;
-  color: #12141d;
-}
-
-#signup-button {
-  background-color: #043a53;
-  color: #ffffff;
 }
